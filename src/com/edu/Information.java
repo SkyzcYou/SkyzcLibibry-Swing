@@ -13,9 +13,9 @@ public class Information {
 
     //数据库连接字
     final static String DRIVER_NAME = "com.mysql.jdbc.Driver";
-    final static String DB_URL = "jdbc:mysql://47.101.198.61:3306/book_management?useUnicode=true&characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=CTT";
-    final static String USER_NAME = "testby";
-    final static String DB_PASSWD = "testby";
+    final static String DB_URL = "jdbc:mysql://localhost:3306/book_management?useUnicode=true&characterEncoding=utf8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=CTT";
+    final static String USER_NAME = "root";
+    final static String DB_PASSWD = "youzc";
 
     //状态字
     public static boolean customer_flag = false;
